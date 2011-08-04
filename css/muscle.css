@@ -66,9 +66,100 @@ a:hover{color:#036}
     #Tablet (Portrait)
     #Mobile (Portrait) 
     #Mobile (Landscape)
+
+/* 960 Grid 
+================================================== */ 
+ 
+ .container {position:relative; width:960px; margin:0 auto; padding:0}
+ .row {margin-bottom:20px}
+
+ .container .col1,  
+ .container .col2,  
+ .container .col3,  
+ .container .col4,  
+ .container .col5,  
+ .container .col6,  
+ .container .col7,  
+ .container .col8,  
+ .container .col9,  
+ .container .col10,  
+ .container .col11,  
+ .container .col12 {float:left; display:inline; margin-left:10px; margin-right:10px}
+
+ 
+ /* Nested col Classes */
+ .alpha {margin-left:0}
+ .omega {margin-right:0}
+ 
+ /* Base Grid */
+ .container .col1 {width:60px}
+ .container .col2 {width:140px}
+ .container .col3 {width:220px}
+ .container .col4 {width:300px}
+ .container .col5 {width:380px}
+ .container .col6 {width:460px}
+ .container .col7 {width:540px} 
+ .container .col8 {width:620px}
+ .container .col9 {width:700px}
+ .container .col10 {width:780px} 
+ .container .col11 {width:860px} 
+ .container .col12 {width:940px}
+ 
+ /* Push */
+ .container .push_1 {left:80px}
+ .container .push_2 {left:160px}
+ .container .push_3 {left:240px}
+ .container .push_4 {left:320px}
+ .container .push_5 {left:400px}
+ .container .push_6 {left:480px}
+ .container .push_7 {left:560px}
+ .container .push_8 {left:640px}
+ .container .push_9 {left:720px}
+ .container .push_10 {left:800px}
+ .container .push_11 {left:880px}
+ 
+ /* Pull */
+ .container .push_1 {left:-80px}
+ .container .push_2 {left:-160px}
+ .container .push_3 {left:-240px}
+ .container .push_4 {left:-320px}
+ .container .push_5 {left:-400px}
+ .container .push_6 {left:-480px}
+ .container .push_7 {left:-560px}
+ .container .push_8 {left:-640px}
+ .container .push_9 {left:-720px}
+ .container .push_10 {left:-800px}
+ .container .push_11 {left:-880px}
+
+ /* prefixs */ 
+ .container .prefix1 {padding-left:80px}
+ .container .prefix2 {padding-left:160px}
+ .container .prefix3 {padding-left:240px}
+ .container .prefix4 {padding-left:320px}
+ .container .prefix5 {padding-left:400px}
+ .container .prefix6 {padding-left:480px}
+ .container .prefix7 {padding-left:560px}
+ .container .prefix8 {padding-left:640px}
+ .container .prefix9 {padding-left:720px}
+ .container .prefix10 {padding-left:800px}
+ .container .prefix11 {padding-left:880px}
+
+ /* suffix */
+ .container .suffix1 {padding-right:80px}
+ .container .suffix2 {padding-right:160px}
+ .container .suffix3 {padding-right:240px}
+ .container .suffix4 {padding-right:320px}
+ .container .suffix5 {padding-right:400px}
+ .container .suffix6 {padding-right:480px}
+ .container .suffix7 {padding-right:560px}
+ .container .suffix8 {padding-right:640px}
+ .container .suffix9 {padding-right:720px}
+ .container .suffix10 {padding-right:800px}
+ .container .suffix11 {padding-right:880px} 
     
 /* #Base 1140 Grid 
 ================================================== */
+@media only screen and (min-width:1140px){
  .container {position:relative; width:1140px; margin:0 auto; padding:0}
  .row {margin-bottom:20px}
 
@@ -169,98 +260,7 @@ a:hover{color:#036}
  .container .suffix9 {padding-right:855px}
  .container .suffix10 {padding-right:950px}
  .container .suffix11 {padding-right:1045px}
-
-/* 960 Grid 
-================================================== */ 
- 
-@media only screen and (min-width:768px) and (max-width:1140px){
- 
- .container {position:relative; width:960px; margin:0 auto; padding:0}
- .row {margin-bottom:20px}
-
- .container .col1,  
- .container .col2,  
- .container .col3,  
- .container .col4,  
- .container .col5,  
- .container .col6,  
- .container .col7,  
- .container .col8,  
- .container .col9,  
- .container .col10,  
- .container .col11,  
- .container .col12 {float:left; display:inline; margin-left:10px; margin-right:10px}
-
- 
- /* Nested col Classes */
- .alpha {margin-left:0}
- .omega {margin-right:0}
- 
- /* Base Grid */
- .container .col1 {width:60px}
- .container .col2 {width:140px}
- .container .col3 {width:220px}
- .container .col4 {width:300px}
- .container .col5 {width:380px}
- .container .col6 {width:460px}
- .container .col7 {width:540px} 
- .container .col8 {width:620px}
- .container .col9 {width:700px}
- .container .col10 {width:780px} 
- .container .col11 {width:860px} 
- .container .col12 {width:940px}
- 
- /* Push */
- .container .push_1 {left:80px}
- .container .push_2 {left:160px}
- .container .push_3 {left:240px}
- .container .push_4 {left:320px}
- .container .push_5 {left:400px}
- .container .push_6 {left:480px}
- .container .push_7 {left:560px}
- .container .push_8 {left:640px}
- .container .push_9 {left:720px}
- .container .push_10 {left:800px}
- .container .push_11 {left:880px}
- 
- /* Pull */
- .container .push_1 {left:-80px}
- .container .push_2 {left:-160px}
- .container .push_3 {left:-240px}
- .container .push_4 {left:-320px}
- .container .push_5 {left:-400px}
- .container .push_6 {left:-480px}
- .container .push_7 {left:-560px}
- .container .push_8 {left:-640px}
- .container .push_9 {left:-720px}
- .container .push_10 {left:-800px}
- .container .push_11 {left:-880px}
-
- /* prefixs */ 
- .container .prefix1 {padding-left:80px}
- .container .prefix2 {padding-left:160px}
- .container .prefix3 {padding-left:240px}
- .container .prefix4 {padding-left:320px}
- .container .prefix5 {padding-left:400px}
- .container .prefix6 {padding-left:480px}
- .container .prefix7 {padding-left:560px}
- .container .prefix8 {padding-left:640px}
- .container .prefix9 {padding-left:720px}
- .container .prefix10 {padding-left:800px}
- .container .prefix11 {padding-left:880px}
-
- /* suffix */
- .container .suffix1 {padding-right:80px}
- .container .suffix2 {padding-right:160px}
- .container .suffix3 {padding-right:240px}
- .container .suffix4 {padding-right:320px}
- .container .suffix5 {padding-right:400px}
- .container .suffix6 {padding-right:480px}
- .container .suffix7 {padding-right:560px}
- .container .suffix8 {padding-right:640px}
- .container .suffix9 {padding-right:720px}
- .container .suffix10 {padding-right:800px}
- .container .suffix11 {padding-right:880px}} 
+}
  
 /* #Tablet (Portrait)
 ================================================== */ 
