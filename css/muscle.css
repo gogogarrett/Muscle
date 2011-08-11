@@ -85,6 +85,21 @@ a:hover{color:#036}
  .container .col10,  
  .container .col11,  
  .container .col12 {float:left; display:inline; margin-left:10px; margin-right:10px}
+ .push_1, .pull_1, 
+ .push_2, .pull_2, 
+ .push_3, .pull_3, 
+ .push_4, .pull_4, 
+ .push_5, .pull_5, 
+ .push_6, .pull_6, 
+ .push_7, .pull_7, 
+ .push_8, .pull_8, 
+ .push_9, .pull_9, 
+ .push_10, .pull_10, 
+ .push_11, .pull_11, 
+ .push_12, .pull_12, 
+ .push_13, .pull_13, 
+ .push_14, .pull_14, 
+ .push_15, .pull_15 {position:relative}
 
  
  /* Nested col Classes */
@@ -119,17 +134,17 @@ a:hover{color:#036}
  .container .push_11 {left:880px}
  
  /* Pull */
- .container .push_1 {left:-80px}
- .container .push_2 {left:-160px}
- .container .push_3 {left:-240px}
- .container .push_4 {left:-320px}
- .container .push_5 {left:-400px}
- .container .push_6 {left:-480px}
- .container .push_7 {left:-560px}
- .container .push_8 {left:-640px}
- .container .push_9 {left:-720px}
- .container .push_10 {left:-800px}
- .container .push_11 {left:-880px}
+ .container .pull_1 {left:-80px}
+ .container .pull_2 {left:-160px}
+ .container .pull_3 {left:-240px}
+ .container .pull_4 {left:-320px}
+ .container .pull_5 {left:-400px}
+ .container .pull_6 {left:-480px}
+ .container .pull_7 {left:-560px}
+ .container .pull_8 {left:-640px}
+ .container .pull_9 {left:-720px}
+ .container .pull_10 {left:-800px}
+ .container .pull_11 {left:-880px}
 
  /* prefixs */ 
  .container .prefix1 {padding-left:80px}
@@ -175,21 +190,6 @@ a:hover{color:#036}
  .container .col10,  
  .container .col11,  
  .container .col12 {float:left; display:inline; margin-left:15px; margin-right:15px} 
- .push_1, .pull_1, 
- .push_2, .pull_2, 
- .push_3, .pull_3, 
- .push_4, .pull_4, 
- .push_5, .pull_5, 
- .push_6, .pull_6, 
- .push_7, .pull_7, 
- .push_8, .pull_8, 
- .push_9, .pull_9, 
- .push_10, .pull_10, 
- .push_11, .pull_11, 
- .push_12, .pull_12, 
- .push_13, .pull_13, 
- .push_14, .pull_14, 
- .push_15, .pull_15 {position:relative}
 
  /* Nested col Classes */
  .alpha {margin-left:0}
@@ -223,17 +223,17 @@ a:hover{color:#036}
  .container .push_11 {left:1045px}
  
  /* Pull */
- .container .push_1 {left:-95px}
- .container .push_2 {left:-190px}
- .container .push_3 {left:-285px}
- .container .push_4 {left:-380px}
- .container .push_5 {left:-475px}
- .container .push_6 {left:-570px}
- .container .push_7 {left:-665px}
- .container .push_8 {left:-760px}
- .container .push_9 {left:-855px}
- .container .push_10 {left:-950px}
- .container .push_11 {left:-1045px}
+ .container .pull_1 {left:-95px}
+ .container .pull_2 {left:-190px}
+ .container .pull_3 {left:-285px}
+ .container .pull_4 {left:-380px}
+ .container .pull_5 {left:-475px}
+ .container .pull_6 {left:-570px}
+ .container .pull_7 {left:-665px}
+ .container .pull_8 {left:-760px}
+ .container .pull_9 {left:-855px}
+ .container .pull_10 {left:-950px}
+ .container .pull_11 {left:-1045px}
 
  /* prefixs */ 
  .container .prefix1 {padding-left:95px}
@@ -300,17 +300,17 @@ a:hover{color:#036}
  .container .push_11 {left:660px}
  
  /* Pull */
- .container .push_1 {left:-60px}
- .container .push_2 {left:-120px}
- .container .push_3 {left:-180px}
- .container .push_4 {left:-240px}
- .container .push_5 {left:-300px}
- .container .push_6 {left:-360px}
- .container .push_7 {left:-420px}
- .container .push_8 {left:-480px}
- .container .push_9 {left:-540px}
- .container .push_10 {left:-600px}
- .container .push_11 {left:-660px}
+ .container .pull_1 {left:-60px}
+ .container .pull_2 {left:-120px}
+ .container .pull_3 {left:-180px}
+ .container .pull_4 {left:-240px}
+ .container .pull_5 {left:-300px}
+ .container .pull_6 {left:-360px}
+ .container .pull_7 {left:-420px}
+ .container .pull_8 {left:-480px}
+ .container .pull_9 {left:-540px}
+ .container .pull_10 {left:-600px}
+ .container .pull_11 {left:-660px}
 
  /* prefixs */ 
  .container .prefix1 {padding-left:60px}
@@ -373,17 +373,17 @@ a:hover{color:#036}
  .container .push_11 {left:0px}
  
  /* Pull */
- .container .push_1,  
- .container .push_2,  
- .container .push_3,  
- .container .push_4,  
- .container .push_5,  
- .container .push_6,  
- .container .push_7,  
- .container .push_8,  
- .container .push_9,  
- .container .push_10,  
- .container .push_11 {left:0px}
+ .container .pull_1,  
+ .container .pull_2,  
+ .container .pull_3,  
+ .container .pull_4,  
+ .container .pull_5,  
+ .container .pull_6,  
+ .container .pull_7,  
+ .container .pull_8,  
+ .container .pull_9,  
+ .container .pull_10,  
+ .container .pull_11 {left:0px}
 
  /* prefixs */ 
  .container .prefix1,  
@@ -448,17 +448,17 @@ a:hover{color:#036}
  .container .push_11 {left:0px}
  
  /* Pull */
- .container .push_1,  
- .container .push_2,  
- .container .push_3,  
- .container .push_4,  
- .container .push_5,  
- .container .push_6,  
- .container .push_7,  
- .container .push_8,  
- .container .push_9,  
- .container .push_10,  
- .container .push_11 {left:0px}
+ .container .pull_1,  
+ .container .pull_2,  
+ .container .pull_3,  
+ .container .pull_4,  
+ .container .pull_5,  
+ .container .pull_6,  
+ .container .pull_7,  
+ .container .pull_8,  
+ .container .pull_9,  
+ .container .pull_10,  
+ .container .pull_11 {left:0px}
 
  /* prefixs */ 
  .container .prefix1,  
@@ -489,13 +489,9 @@ a:hover{color:#036}
  .container .suffix12 {padding-left:0} 
  }
 
-/*
-    // ========================================== \\
-   ||               Your styles!                   ||
-   ||               Go Go Garrett                  ||
-   ||                                              ||
-    \\ ========================================== //
-*/
+/******************************
+*      Your Styles 
+*******************************/
 
 
 /* clear fix jargan! */
