@@ -56,7 +56,6 @@ a:link{-webkit-tap-highlight-color:#FF5E99}
 button{ width:auto; overflow:visible}
 .ie7 img{-ms-interpolation-mode:bicubic}
 body, select, input, textarea{ color:#444}
-h1, h2, h3, h4, h5, h6{font-weight:bold}
 a, a:active, a:visited{color:#607890}
 a:hover{color:#036}
 /* Table of Contents
@@ -70,9 +69,7 @@ a:hover{color:#036}
 /* 960 Grid 
 ================================================== */ 
  
- .container {position:relative; width:960px; margin:0 auto; padding:0}
- .row {margin-bottom:20px}
-
+ .container {position:relative; width:960px; margin:0 auto; padding:0;overflow:hidden;}
  .container .col1,  
  .container .col2,  
  .container .col3,  
@@ -174,10 +171,8 @@ a:hover{color:#036}
     
 /* #Base 1140 Grid 
 ================================================== */
-@media only screen and (min-width:1140px){
- .container {position:relative; width:1140px; margin:0 auto; padding:0}
- .row {margin-bottom:20px}
-
+@media only screen and (min-width:1200px){
+ .container {position:relative; width:1140px; margin:0 auto; padding:0;}
  .container .col1,  
  .container .col2,  
  .container .col3,  
@@ -267,7 +262,7 @@ a:hover{color:#036}
  
  /* Note:Design for a width of 768px */
  
- @media only screen and (min-width:768px) and (max-width:959px){
+ @media only screen and (min-width:768px) and (max-width:995px){
  .container {width:720px}
  .container .col {margin-left:10px; margin-right:10px}
  .alpha {margin-left:0; margin-right:10px}
@@ -345,7 +340,7 @@ a:hover{color:#036}
  @media only screen and (max-width:767px){
  .container {width:300px}
  .col {margin:0}
- 
+ .container .col {margin-left:10px; margin-right:10px}
  .container .col1, 
  .container .col2, 
  .container .col3, 
@@ -357,7 +352,7 @@ a:hover{color:#036}
  .container .col9, 
  .container .col10, 
  .container .col11, 
- .container .col12 {width:300px}
+ .container .col12 {width:280px}
  
  /* Push */
  .container .push_1,  
@@ -420,6 +415,7 @@ a:hover{color:#036}
  @media only screen and (min-width:480px) and (max-width:767px){
  .container {width:420px}
  .col {margin:0}
+ .container .col {margin-left:10px; margin-right:10px}
  
  .container .col1, 
  .container .col2, 
@@ -432,7 +428,7 @@ a:hover{color:#036}
  .container .col9, 
  .container .col10, 
  .container .col11, 
- .container .col12 {width:420px}
+ .container .col12 {width:400px}
 
  /* Push */
  .container .push_1,  
@@ -490,9 +486,63 @@ a:hover{color:#036}
  }
 
 /******************************
-*      Your Styles 
+*      Garrett Heinlen Rox 
 *******************************/
 
+body {
+  background: url(../images/bg.jpg);
+}
+
+#headerwrapper {
+  background: url(../images/headerbg.jpg) repeat-x;
+  height: 185px;
+}
+
+#logo {
+  background: url(../images/logobg.png);
+  height: 155px;
+  width: 192px;
+  padding: 15px;
+}
+
+#logo h1 {
+  font-size: 48px;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 30px;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #94908c;
+  border-bottom: 2px solid #94908c;
+  padding-bottom: 10px;
+  margin-bottom: 5px;
+  margin-top: 15px;
+}
+
+#logo h3 {
+  font-size: 13px;
+  line-height: 24px;
+  font-family: 'Open Sans', sans-serif;
+  color: #ada8a4;
+}
+
+#donate {
+  margin-top: 65px;
+  padding: 5px 0px;
+  background: #ede9e6;
+  border: 2px solid #a29e9a;
+  text-align: center;
+}
+
+#donate p {
+  font-size: 18px;
+  font-family: 'Amaranth Bold Italic', sans-serif;
+  line-height: 30px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #ba4c4e;
+  font-style: italic;
+  font-weight: 700;
+}
 
 /* clear fix jargan! */
 .clearfix:before, .clearfix:after{content:"\0020"; display:block; height:0; overflow:hidden}
