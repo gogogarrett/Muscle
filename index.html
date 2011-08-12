@@ -6,61 +6,130 @@
 <!--[if (gt IE 9)|!(IE)]><!--> 
 <html lang="en" class="no-js"> <!--<![endif]-->
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	
-	<title>I like to Flex back and forth</title>
-	<meta name="description" content="CSS Frame work thats strong, and.. it's big.">
-	<meta name="author" content="Garrett Heinlen, Vert Studios">
-	
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	
-	<link rel="stylesheet" href="css/muscle.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-	<!--[if lt IE 9]>
-	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+  <title>I like to Flex back and forth</title>
+
+  <meta name="description" content="CSS Frame work thats strong, and.. it's big.">
+  <meta name="author" content="Garrett Heinlen">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="stylesheet" href="stylesheets/muscle.css">
+  <!--<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700italic|Josefin+Sans|Amaranth' rel='stylesheet' type='text/css'>-->
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+  <link href="css/muscle.css" media="screen" rel="stylesheet" type="text/css" />
+
 </head>
 <body>
 
-    <div class="container"> 
-        <div class="col12">
-            <h1>Muscle</h1>
-            <h5>Version 10.0.5 - the first</h5>
-            <hr />
-        </div>
+<div id="headerwrapper" class="container"> 
+  <header class="row">
+    <div id="logo" class="threecol">
+      <h1>Muscle</h1>
+      <h3>When a small css framework just wont cut it.</h3>
+    </div>
 
-        <div class="col4">
-            <h3>About Muscle?</h3>    
-            <p>
-                Muscle is awesome.  You get a 1140px layout for dem big 'ol screens, as well as a 960px layout for those stuck
-                in the 90's.  It's super awesome and comes with iPad landscape/portrait as well as iPhone landscape/portrait.  
-                This awesomeness is a result of me being a badass.
-            </p>
-        </div>
+    <div id="donate" class="twocol">
+      <p>donate</p>
+    </div>
+  </header>
+</div><!-- headerwrapper -->
 
-        <div class="col4">
-            <h3>Three Core Principles</h3>  
-            <p>Muscle is built on three core principles:</p>
-            <ul>
-                <li><strong>A Responsive Grid that scales from 1140px to mobile</strong>: Kickass.</li>
-                <li><strong>Easy to use</strong>: great starting place for all your projects.</li>
-                <li><strong>Simple</strong>: It provides the most basic, beautiful styles, but is meant to be overwritten.</li>
-            </ul>
-        </div>
+<div id="foldwrapper" class="container">
 
-        <div class="col4">
-            <h3>Docs &amp; Support</h3> 
-            <p>There are none.</p>
-        </div>
+  <div id="fold" class="row">
 
-    </div><!-- container -->
+      <div id="download" class="fourcol">
 
-	<script>
-		var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']]; // Change UA-XXXXX-X to be your site's ID
-		(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
-		g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-		s.parentNode.insertBefore(g,s)}(document,'script'));
-    </script>
+        <h3>Download</h3>
+        <p>version 1.0</p>
+      </div>
+
+      <div class="sevencol">
+          <h3>What is it?</h3>  
+          <p>
+            Muscle is a small lightweight CSS framework that kicks ass.  
+            The world of small monitors is slowing diminishing and we should adapt 
+            to this growing trend.  Muscle fits perfectly on any resolution whether 
+            that be a 24'' desktop screen or an iPhone, as well as everything in between.  
+          </p>
+
+      </div>
+
+  </div>
+</div><!-- foldwrapper -->
+
+<div id="workwrapper" class="container">
+
+  <div id="work" class="row">
+    <div class="sevencol">
+      <h3>How does it work?</h3>
+      <h4>.container</h4>
+
+      <p>
+        Does what it says and contains all of the content within.
+        It is a full width div that expands the width of the browser, 
+        great for background images that repeat across the layout.  
+      </p>
+
+      <h4>.col1 .col2 .col3 .col4 .col5 .col6 .col7 .col8 .col9 .col10 .col11 .col12</h4>
+      <p>
+        Are the classes for each column that help you layout your page. 
+      </p>
+    </div>
+
+    <div class="fourcol">
+      <pre>
+        <span class="teal">&lt;div class="container"&gt;</span>
+
+          <span class="purple">&lt;div class="threecol"&gt;</span>
+            <span class="lightgrey">&lt;p&gt;Column 1&lt;/p&gt;</span>
+          <span class="purple">&lt;/div&gt;</span>
+
+          <span class="purple">&lt;div class="threecol"&gt;</span>
+            <span class="lightgrey">&lt;p&gt;Column 2&lt;/p&gt;</span>
+          <span class="purple">&lt;/div&gt;</span>
+
+          <span class="purple">&lt;div class="threecol"&gt;</span>
+            <span class="lightgrey">&lt;p&gt;Column 3&lt;/p&gt;</span>
+
+          <span class="purple">&lt;/div&gt;</span>
+
+          <span class="purple">&lt;div class="threecol"&gt;</span>
+            <span class="lightgrey">&lt;p&gt;Column 4&lt;/p&gt;</span>
+          <span class="purple">&lt;/div&gt;</span>
+
+        <span class="teal">&lt;/div&gt;</span>
+
+      </pre>
+    </div>
+
+  </div><!-- end work -->
+
+</div><!-- end workwrapper -->
+
+
+  <!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="javascripts/libs/jquery-1.5.1.min.js"%3E%3C/script%3E'))</script>
+  <script src="javascripts/plugins.js"></script>
+  <script src="javascripts/script.js"></script>-->
+  <!--[if lt IE 7 ]>
+  <script src="javascripts/libs/dd_belatedpng.js"></script>
+  <script> DD_belatedPNG.fix('img, .png_bg');</script>
+  <![endif]-->
+  <!--<script>
+    var _gaq=[['_setAccount','UA-25098461-1'],['_trackPageview']]; // Change UA-XXXXX-X to be your site's ID
+    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
+    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g,s)}(document,'script'));
+</script>-->
+
 </body>
 </html>
