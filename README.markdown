@@ -16,50 +16,50 @@ You have a fancy smart phone? You have a fancy tablet?  You like things to be fa
 ##HOW DO I GET STRONG?
 The markup
 
-`<div class="container">
-    <div class="row">
-        <div class="col4">
-            <p>Column 1</p>
-        </div>
-        <div class="col4">
-            <p>Column 2</p>
-        </div>
-        <div class="col4 last">
-            <p>Column 3</p>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col5 suffix5">
-            <p>Column 1 -- Suffix 5</p>
-        </div>
-        <div class="col3 last">
-            <p>Column 2</p>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col6">
-            <p>Column 6</p>
-            <div class="col3 alpha">First nested div</div>
-            <div class="col3 omega">Second nested div</div>
-        </div>
-        <div class="col6 last">
-            <p>Column 6</p>
-            <div class="col3 alpha">First nested div</div>
-            <div class="col3 omega">Second nested div</div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col6 push6">
-            <p>This div is actually first in the markup</p>
-        </div>
-        <div class="col6 pull6">
-            <p>As where this div is second</p>
-        </div>
-    </div>
-    <footer class="row bottom">
-        <p>That's all folks.  If you have any more questions feel free to contact us at @GoGoGarrett or @VertJustin</p>
-    </footer>
-</div>`
+`<div class="container">`
+`    <div class="row">`
+`        <div class="col4">`
+`            <p>Column 1</p>`
+`        </div>`
+`        <div class="col4">`
+`            <p>Column 2</p>`
+`        </div>`
+`        <div class="col4 last">`
+`            <p>Column 3</p>`
+`        </div>`
+`    </div>`
+`    <div class="row">`
+`        <div class="col5 suffix5">`
+`            <p>Column 1 -- Suffix 5</p>`
+`        </div>`
+`        <div class="col3 last">`
+`            <p>Column 2</p>`
+`        </div>`
+`    </div>`
+`    <div class="row">`
+`        <div class="col6">`
+`            <p>Column 6</p>`
+`            <div class="col3 alpha">First nested div</div>`
+`            <div class="col3 omega">Second nested div</div>`
+`        </div>`
+`        <div class="col6 last">`
+`            <p>Column 6</p>`
+`            <div class="col3 alpha">First nested div</div>`
+`            <div class="col3 omega">Second nested div</div>`
+`        </div>`
+`    </div>`
+`    <div class="row">`
+`        <div class="col6 push6">`
+`            <p>This div is actually first in the markup</p>`
+`        </div>`
+`        <div class="col6 pull6">`
+`            <p>As where this div is second</p>`
+`        </div>`
+`    </div>`
+`    <footer class="row bottom">`
+`        <p>That's all folks.  If you have any more questions feel free to contact us at @GoGoGarrett or @VertJustin</p>`
+`   </footer>`
+`</div>`
 
 
 ##What means it?!
