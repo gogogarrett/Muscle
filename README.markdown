@@ -16,7 +16,7 @@ You have a fancy smart phone? You have a fancy tablet?  You like things to be fa
 ##HOW DO I GET STRONG?
 The markup
 
-<div class="container">
+`<div class="container">
     <div class="row">
         <div class="col4">
             <p>Column 1</p>
@@ -59,32 +59,32 @@ The markup
     <footer class="row bottom">
         <p>That's all folks.  If you have any more questions feel free to contact us at @GoGoGarrett or @VertJustin</p>
     </footer>
-</div>
+</div>`
 
 
 ##What means it?!
-*.container
+**.container**
 Is a class that allows the div to expand to the full width of the browser, and has padding on both side to separate the content from the window as it is resized.  This class is ideal for background images or colors that expand beyond the wrapper and span the full width of the browser.  You can use multiple of these on your page to divide the content of your page up into different sections.
 
-*.row
+**.row**
 Is a what you encapsulate your columns within.  It centers them and defines the width as well as add a margin bottom to separate the contents of your rows.  
 
-*.col1, .col2, .col3, .col4, .col5, .col6, .col7, .col7, .col9, .col10, .col11, .col12
+**.col1, .col2, .col3, .col4, .col5, .col6, .col7, .col7, .col9, .col10, .col11, .col12**
 Are the classes for each column.  They are to be used to layout the page in any combination you desire within a row that adds up to be twelve. 
 
-*.prefix1, .prefix2, .prefix3, .prefix4, .prefix5, .prefix6, .prefix7, .prefix8, .prefix9, .prefix10, .prefix11,
-*.suffix1, .suffix2, .suffix3, .suffix4, .suffix5, .suffix6, .suffix7, .suffix8, .suffix9, .suffix10, .suffix11
+**.prefix1, .prefix2, .prefix3, .prefix4, .prefix5, .prefix6, .prefix7, .prefix8, .prefix9, .prefix10, .prefix11,**
+**.suffix1, .suffix2, .suffix3, .suffix4, .suffix5, .suffix6, .suffix7, .suffix8, .suffix9, .suffix10, .suffix11**
 These are classes to help you shimmy stuff where you need it.  You can add space before or after and maintain your layout by using these helpers.
 
-*.push1, .push2, .push3, .push4, .push5, .push6, .push7, .push8, .push9, .push10, .push11 
-*.pull1, .pull2, .pull3, .pull4, .pull5, .pull6, .pull7, .pull8, .pull9, .pull10, .pull11
+**.push1, .push2, .push3, .push4, .push5, .push6, .push7, .push8, .push9, .push10, .push11** 
+**.pull1, .pull2, .pull3, .pull4, .pull5, .pull6, .pull7, .pull8, .pull9, .pull10, .pull11**
 These are classes to help you rearrange positions of elements regardless of where they lie in the markup.  They use relative and left positioning that allows you to push and pull elements to where you see fit. 
 
-*.alpha, .omega
+**.alpha, .omega**
 Are two helper classes that assist you with nesting children divs within parent divs by eliminating margins.  alpha - left margin, and omega - right margin.  
 
-*.last
+**.last**
 The last column within a row needs the class to ensure there is no right margin and that all columns fit within the row 
 
-*.bottom
+**.bottom**
 This class functions similarly to .last as it is required for the very last row if you want to ensure that it sits flush to the bottom of the page.  It eliminates all margin bottom.
