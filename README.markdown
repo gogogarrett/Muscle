@@ -32,7 +32,7 @@ The markup
             <div class="col5 suffix5">
                 <p>Column 1 -- Suffix 5</p>
             </div>
-            <div class="col3 last">
+            <div class="col2 last">
                 <p>Column 2</p>
             </div>
        </div>
