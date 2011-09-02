@@ -378,7 +378,7 @@ iframe, img {max-width: 100%;}
 }
 
 /*===============================
-=   480px #Mobile Landscape
+=   480px ONLY Mobile Landscape
 ================================*/
 @media only screen and (min-width: 480px) and (max-width: 808px) {
     
@@ -461,7 +461,7 @@ iframe, img {max-width: 100%;}
 }
 
 /*===============================
-=   320px #Mobile Portrait
+=   320px ONLY Mobile Portrait
 ================================*/
 @media only screen and (min-width: 320px) and (max-width: 480px) {
 
@@ -716,6 +716,13 @@ footer p#credit {
         font-size: 57px;
     }
 }
+
+/*=======================================================
+=   480px Common Mobile Styles (Landscape & Portrait)
+========================================================*/
+@media only screen and (max-width: 808px) {
+}
+
 
 /*===============================
 =   320px #Mobile Portrait
