@@ -542,179 +542,22 @@ iframe, img {max-width: 100%;}
     .row .pull11    {left:0px;}
 }
 
-
 /*===============================
 =
 =   Your styles here!
 =
 ================================*/
 
-a {
-    color: #e9752a;
-}
-
-body {
-  background: url(../images/bg.jpg);
-}
-
-#headerwrapper {
-  background: url(../images/headerbg.jpg) repeat-x;
-  height: 172px;
-}
-
-#logo img {
-    max-width: 100%;
-    padding-top: 36px;
-}
-
-#logo {
-    height: 137px;
-    line-height: 137px;
-}
-
-#main .row {
-    padding-top: 50px;
-}
-
-h1 {
-    color: #222;
-    font-size: 72px;
-    font-family: octin-college,sans-serif;
-    text-align: center;
-    padding-top: 30px;
-    padding-bottom: 15px;
-    background: url(../images/body_stripes.png) top left repeat-x;
-    margin-bottom: 20px;
-    text-transform: capitalize;
-}
-
-.h1_wrap {
-    background: url(../images/body_stripes.png) bottom left repeat-x;
-}
-
-h2 {
-    font-family: octin-vintage;
-    font-size: 23px;
-    padding: 20px 0 10px 0;
-    text-transform: capitalize;
-}
-
-#main .img_wrap {
-    border-bottom: 4px solid #e9752a;
-    border-right: 4px solid #e9752a;
-    position: relative;
-    left: 9px;
-    margin-top: 60px;
-}
-
-#main .img_wrap img {
-    position: relative;
-    top: -3px;
-    left: -6px;
-}
-
-#main .image {
-   overflow: show; 
-}
-
-#download {
-    background: url(../images/ribbon_thin.png) center no-repeat;
-    color: #222;
-}
-#download .row {
-    padding-bottom: 0;
-}
-
-#download a {
-    color: #222;
-    text-decoration: none;
-    display: block;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-}
-
-#download_link {
-    background: url(../images/download_button.png) center no-repeat;
-    height: 82px;
-    padding-top:14px;
-    letter-spacing: 1px;
-}
-
-.taunt {
-    font-family: octin-vintage;
-    text-align: center;
-    height: 97px;
-    line-height: 97px;
-    font-size: 23px;
-    color: #333;
-    color: #222;
-    text-shadow: -2px 0 #e1d2af, 0 2px #e1d2af, 2px 0 #e1d2af, 0 -2px #e1d2af;
-}
-
-#download_link  {
-    font-family: octin-college,sans-serif;
-    font-size: 23px;
-    text-shadow: -2px 0 #e1d2af, 0 1px #e1d2af; 
-}
-
-#download_link  span {
-    display: block;
-    font-size: 31px;
-}
-
-#demo_grid {
-    margin-top: 60px;
-}
-
-#demo_grid .row div div {
-    height: 46px;
-    border: 2px solid #e9752a;
-    background: url(../images/repeating_stripes_body.png) top left repeat;
-    text-align: center;
-    color: #575653;
-    line-height: 46px;
-    font-weight: bold;
-    font-size: 14px;
-    text-shadow: -3px 0 #e1d2af, 0 3px #e1d2af, 3px 0 #e1d2af, 0 -3px #e1d2af;
-}
-
-#footerwrap {
-    height: 140px;
-    padding-top: 30px;
-    background: url(../images/footer_bg.jpg) top left repeat-x;
-    margin-top: 80px;
-}
-
-footer p#credit {
-    color: #e1d2af;
-    font-family: octin-vintage;
-    font-size: 18px;
-    letter-spacing: 1px;
-    padding-top: 20px;
-}
-
-
 /*===============================
 =   1140px #Big Screens
 ================================*/
 @media only screen and (min-width:1200px){
-
-    .h1_wrap h1 {
-        font-size: 77px;
-    }
 }
 
 /*===============================
 =   768px #Tablet Portrait
 ================================*/
 @media only screen and (min-width: 768px) and (max-width: 959px) {
-    #logo {
-        margin-top: 15px;
-    }
-    .h1_wrap h1 {
-        font-size: 57px;
-    }
 }
 
 /*=======================================================
@@ -728,24 +571,12 @@ footer p#credit {
 =   320px #Mobile Portrait
 ================================*/
 @media only screen and (max-width: 767px) {
-    #logo { margin-top:16px}
-    .h1_wrap h1 {
-        font-size: 37px;
-        padding-top: 31px;
-        padding-bottom: 27px;
-    }
 }
 
 /*===============================
 =   480px #Mobile Landscape
 ================================*/
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-    #logo {margin-top:0px}
-    .h1_wrap h1 {
-        font-size: 59px;
-        padding-bottom:23px;
-        padding-top: 31px;
-    }
 }
 
 
