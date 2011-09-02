@@ -178,7 +178,7 @@ iframe, img {max-width: 100%;}
 /*===============================
 =   1140px #Big Screens
 ================================*/
-@media only screen and (min-width:1200px){
+@media only screen and (min-width:1180px){
     .container      {padding-left:20px;padding-right:20px;}
     .row            {width:1140px;margin: 0 auto;overflow:hidden;margin-bottom:50px;}
     .col1,
@@ -279,7 +279,7 @@ iframe, img {max-width: 100%;}
 /*===============================
 =   768px #Tablet Portrait
 ================================*/
-@media only screen and (min-width: 768px) and (max-width: 959px) {
+@media only screen and (min-width: 808px) and (max-width: 1000px) {
     .container      {padding-left:20px;padding-right:20px;}
     .row            {width: 768px;margin: 0 auto;overflow:hidden;margin-bottom:50px}
     .col1,
@@ -378,9 +378,92 @@ iframe, img {max-width: 100%;}
 }
 
 /*===============================
+=   480px #Mobile Landscape
+================================*/
+@media only screen and (min-width: 480px) and (max-width: 808px) {
+    
+    .row, body, .container {
+      min-width: 0;
+      margin-left: auto;
+      margin-right: auto;
+      padding-left: 0px;
+      padding-right: 0px;
+	}
+    .alpha          {margin-left:0px;}
+    .omega          {margin-right:0px;}
+
+    .row            {width:480px;}
+	
+	.row .col1, 
+    .row .col2, 
+    .row .col3, 
+    .row .col4, 
+    .row .col5, 
+    .row .col6, 
+    .row .col7,
+    .row .col8,
+    .row .col9,
+    .row .col10,
+    .row .col11,
+    .row .col12 {
+      width: auto;
+      float: none;
+      margin-left: 0px;
+      margin-right: 0px;
+      padding-left: 20px;
+      padding-right: 20px;
+	}
+
+    .row .prefix1,   
+    .row .prefix2,   
+    .row .prefix3,   
+    .row .prefix4,   
+    .row .prefix5,   
+    .row .prefix6,   
+    .row .prefix7,   
+    .row .prefix8,   
+    .row .prefix9,   
+    .row .prefix10,  
+    .row .prefix11,  
+    .row .suffix1,  
+    .row .suffix2,  
+    .row .suffix3,   
+    .row .suffix4,   
+    .row .suffix5,   
+    .row .suffix6,   
+    .row .suffix7,   
+    .row .suffix8,   
+    .row .suffix9,   
+    .row .suffix10,  
+    .row .suffix11  {padding-right:20px;padding-left:20px}
+
+    .row .push2,       
+    .row .push3,     
+    .row .push4,      
+    .row .push5,      
+    .row .push6,      
+    .row .push7,     
+    .row .push8,     
+    .row .push9,     
+    .row .push10,       
+    .row .push11,    
+    .row .pull1,       
+    .row .pull2,       
+    .row .pull3,     
+    .row .pull4,      
+    .row .pull5,      
+    .row .pull6,       
+    .row .pull7,     
+    .row .pull8,     
+    .row .pull9,      
+    .row .pull10,       
+    .row .pull11    {left:0px;}
+}
+
+/*===============================
 =   320px #Mobile Portrait
 ================================*/
-@media only screen and (max-width: 767px) {
+@media only screen and (min-width: 320px) and (max-width: 480px) {
 
     .row, body, .container {
       min-width: 0;
@@ -459,88 +542,6 @@ iframe, img {max-width: 100%;}
     .row .pull11    {left:0px;}
 }
 
-
-/*===============================
-=   480px #Mobile Landscape
-================================*/
-@media only screen and (min-width: 480px) and (max-width: 767px) {
-    .row, body, .container {
-      min-width: 0;
-      margin-left: auto;
-      margin-right: auto;
-      padding-left: 0px;
-      padding-right: 0px;
-	}
-    .alpha          {margin-left:0px;}
-    .omega          {margin-right:0px;}
-
-    .row            {width:480px;}
-	
-	.row .col1, 
-    .row .col2, 
-    .row .col3, 
-    .row .col4, 
-    .row .col5, 
-    .row .col6, 
-    .row .col7,
-    .row .col8,
-    .row .col9,
-    .row .col10,
-    .row .col11,
-    .row .col12 {
-      width: auto;
-      float: none;
-      margin-left: 0px;
-      margin-right: 0px;
-      padding-left: 20px;
-      padding-right: 20px;
-	}
-
-    .row .prefix1,   
-    .row .prefix2,   
-    .row .prefix3,   
-    .row .prefix4,   
-    .row .prefix5,   
-    .row .prefix6,   
-    .row .prefix7,   
-    .row .prefix8,   
-    .row .prefix9,   
-    .row .prefix10,  
-    .row .prefix11,  
-    .row .suffix1,  
-    .row .suffix2,  
-    .row .suffix3,   
-    .row .suffix4,   
-    .row .suffix5,   
-    .row .suffix6,   
-    .row .suffix7,   
-    .row .suffix8,   
-    .row .suffix9,   
-    .row .suffix10,  
-    .row .suffix11  {padding-right:20px;padding-left:20px}
-
-    .row .push2,       
-    .row .push3,     
-    .row .push4,      
-    .row .push5,      
-    .row .push6,      
-    .row .push7,     
-    .row .push8,     
-    .row .push9,     
-    .row .push10,       
-    .row .push11,    
-    .row .pull1,       
-    .row .pull2,       
-    .row .pull3,     
-    .row .pull4,      
-    .row .pull5,      
-    .row .pull6,       
-    .row .pull7,     
-    .row .pull8,     
-    .row .pull9,      
-    .row .pull10,       
-    .row .pull11    {left:0px;}
-}
 
 /*===============================
 =
