@@ -383,7 +383,6 @@ iframe, img {max-width: 100%;}
 @media only screen and (max-width: 767px) {
 
     .row, body, .container {
-      width: 100%;
       min-width: 0;
       margin-left: auto;
       margin-right: auto;
@@ -466,7 +465,6 @@ iframe, img {max-width: 100%;}
 ================================*/
 @media only screen and (min-width: 480px) and (max-width: 767px) {
     .row, body, .container {
-      width: 100%;
       min-width: 0;
       margin-left: auto;
       margin-right: auto;
