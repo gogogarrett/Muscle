@@ -192,20 +192,20 @@ iframe, img {max-width: 100%;}
     .col9,
     .col10,
     .col11,
-    .col12          {margin-right:10px;margin-left:10px;float: left;min-height: 1px;}
+    .col12          {margin-right:20px;margin-left:20px;float: left;min-height: 1px;}
 
-    .row .col1      {width: 75px;}
-    .row .col2      {width: 170px;}
-    .row .col3      {width: 265px;}
-    .row .col4      {width: 360px;}
-    .row .col5      {width: 455px;}
-    .row .col6      {width: 550px;} 
-    .row .col7      {width: 645px;}
-    .row .col8      {width: 740px;}
-    .row .col9      {width: 835px;}
-    .row .col10     {width: 930px;}
-    .row .col11     {width: 1025px;}
-    .row .col12     {width: 1120px;float: left;}
+    .row .col1      {width: 55px;}
+    .row .col2      {width: 150px;}
+    .row .col3      {width: 245px;}
+    .row .col4      {width: 340px;}
+    .row .col5      {width: 435px;}
+    .row .col6      {width: 530px;} 
+    .row .col7      {width: 625px;}
+    .row .col8      {width: 720px;}
+    .row .col9      {width: 815px;}
+    .row .col10     {width: 910px;}
+    .row .col11     {width: 1005px;}
+    .row .col12     {width: 1100px;float: left;}
 
     /*
     = Prefix Extra Space
@@ -279,7 +279,8 @@ iframe, img {max-width: 100%;}
 /*===============================
 =   768px #Tablet Portrait
 ================================*/
-@media only screen and (min-width: 808px) and (max-width: 1000px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+/* @media only screen and (min-width: 808px) and (max-width: 1000px) { */
     .container      {padding-left:20px;padding-right:20px;}
     .row            {width: 768px;margin: 0 auto;overflow:hidden;margin-bottom:50px}
     .col1,
