@@ -380,7 +380,8 @@ iframe, img {max-width: 100%;}
 /*===============================
 =   480px ONLY Mobile Landscape
 ================================*/
-@media only screen and (min-width: 480px) and (max-width: 800px) {
+/* @media only screen and (min-width: 480px) and (max-width: 808px) { */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min-device-pixel-ratio: 1.5) {
     
     .row, body, .container {
       min-width: 0;
@@ -566,19 +567,17 @@ iframe, img {max-width: 100%;}
 @media only screen and (max-width: 808px) {
 }
 
+/*===============================
+=   480px #Mobile Landscape ONLY
+================================*/
+@media only screen and (min-width: 460px) and (max-width: 808px) {
+}
 
 /*===============================
 =   320px #Mobile Portrait ONLY
 ================================*/
-@media only screen and (min-width: 480px) and (max-width: 808px) {
-}
-
-/*===============================
-=   480px #Mobile Landscape ONLY
-================================*/
 @media only screen and (min-width: 320px) and (max-width: 480px) {
 }
-
 
 /*===============================
 =   clear fix jargan 
