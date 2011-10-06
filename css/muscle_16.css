@@ -1,0 +1,688 @@
+html, body, div, span, object, iframe, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, 
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, 
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, 
+fieldset, form, label, legend, 
+table, caption, tbody, tfoot, thead, tr, th, td, 
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary, 
+time, mark, audio, video{
+  margin:0; 
+  padding:0; 
+  border:0; 
+  font-size:100%; 
+  font:inherit; 
+  vertical-align:baseline}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section{
+  display:block}
+blockquote, q{quotes:none}
+blockquote:before, blockquote:after, 
+q:before, q:after{content:''; content:none}
+ins{background-color:#ff9; color:#000; text-decoration:none}
+mark{background-color:#ff9; color:#000; font-style:italic; font-weight:bold}
+del{text-decoration:line-through}
+abbr[title], dfn[title]{border-bottom:1px dotted; cursor:help}
+table{border-collapse:collapse; border-spacing:0}
+hr{display:block; height:1px; border:0; border-top:1px solid #ccc; margin:1em 0; padding:0}
+input, select{vertical-align:middle}
+body{font:13px/1.231 sans-serif; *font-size:small}
+select, input, textarea, button{font:99% sans-serif}
+pre, code, kbd, samp{font-family:monospace,sans-serif}
+html{overflow-y:scroll}
+a:hover, a:active{outline:none}
+ul, ol{margin-left:0em}
+ol{list-style-type:decimal}
+nav ul, nav li{margin:0; list-style:none; list-style-image:none}
+small{font-size:85%}
+strong, th{font-weight:bold}
+td{vertical-align:top}
+sub, sup{font-size:75%; line-height:0; position:relative}
+sup{top:-0.5em}
+sub{bottom:-0.25em}
+pre{white-space:pre; white-space:pre-wrap; word-wrap:break-word; padding:15px}
+textarea{overflow:auto}
+.ie6 legend, .ie7 legend{margin-left:-7px}
+input[type="radio"]{vertical-align:text-bottom}
+input[type="checkbox"]{vertical-align:bottom}
+.ie7 input[type="checkbox"]{vertical-align:baseline}
+.ie6 input{vertical-align:text-bottom}
+label, input[type="button"], input[type="submit"], input[type="image"], button{cursor:pointer}
+button, input, select, textarea{margin:0}
+input:valid, textarea:valid {}
+input:invalid, textarea:invalid{border-radius:1px; -moz-box-shadow:0px 0px 5px red; -webkit-box-shadow:0px 0px 5px red; box-shadow:0px 0px 5px red}
+.no-boxshadow input:invalid, .no-boxshadow textarea:invalid{background-color:#f0dddd}::-moz-selection{background:#E9752A; color:#fff; text-shadow:none}::selection{background:#E9752A; color:#fff; text-shadow:none}
+a:link{-webkit-tap-highlight-color:#FF5E99}
+button{ width:auto; overflow:visible}
+.ie7 img{-ms-interpolation-mode:bicubic}
+body, select, input, textarea{ color:#444}
+a, a:active, a:visited{color:#607890}
+a:hover{color:#036}
+iframe, img {max-width: 100%;}
+/*====================================
+=   Table of Contents:
+=       1. 960px    - Served by default
+=       2. 1140px   - Bigger Screens
+=       3. 720px    - Tablet Portrait
+=       4. 960px    - Tablet Landscape
+=       5. 320px    - Phone Portrait
+=       6. 456px    - Phone Landscape
+=====================================
+=   960 Default
+===================================*/
+.container          {padding-left:20px;padding-right:20px;}
+.row                {width:960px;margin: 0 auto;overflow:hidden;margin-bottom:50px}
+.col1,
+.col2,
+.col3,
+.col4,
+.col5,
+.col6,
+.col7,
+.col8,
+.col9,
+.col10,
+.col11,
+.col12              {margin-right:10px;margin-left:10px;float:left;min-height:1px;}
+
+.push1, .pull1,      
+.push2, .pull2,       
+.push3, .pull3,     
+.push4, .pull4,      
+.push5, .pull5,      
+.push6, .pull6,       
+.push7, .pull7,      
+.push8, .pull8,     
+.push9, .pull9,      
+.push10,.pull10,       
+.push11,.pull11,
+.push12,.pull12,
+.push13,.pull13,
+.push14,.pull14,
+.push15,.pull15,
+.push16,.pull16     {position:relative}
+
+/*
+= Width of columns
+===================================*/
+.row .col1          {width: 40px;}
+.row .col2          {width: 100px;}
+.row .col3          {width: 160px;}
+.row .col4          {width: 220px;}
+.row .col5          {width: 280px;}
+.row .col6          {width: 340px;} 
+.row .col7          {width: 400px;}
+.row .col8          {width: 460px;}
+.row .col9          {width: 520px;}
+.row .col10         {width: 580px;}
+.row .col11         {width: 640px;}
+.row .col12         {width: 700px;}
+.row .col13         {width: 760px;}
+.row .col14         {width: 820px;}
+.row .col15         {width: 880px;}
+.row .col16         {width: 940px;float:left;}
+
+/*
+= Prefix Extra Space
+===================================*/
+.row .prefix1       {padding-left:60px;}
+.row .prefix2       {padding-left:120px;}
+.row .prefix3       {padding-left:180px;}
+.row .prefix4       {padding-left:240px;}
+.row .prefix5       {padding-left:300px;}
+.row .prefix6       {padding-left:360px;}
+.row .prefix7       {padding-left:420px;}
+.row .prefix8       {padding-left:480px;}
+.row .prefix9       {padding-left:540px;}
+.row .prefix10      {padding-left:600px;}
+.row .prefix11      {padding-left:660px;}
+.row .prefix12      {padding-left:720px;}
+.row .prefix13      {padding-left:780px;}
+.row .prefix14      {padding-left:840px;}
+.row .prefix15      {padding-left:900px;}
+
+/*
+= Suffix Extra Space
+===================================*/
+.row .prefix1       {padding-right:60px;}
+.row .prefix2       {padding-right:120px;}
+.row .prefix3       {padding-right:180px;}
+.row .prefix4       {padding-right:240px;}
+.row .prefix5       {padding-right:300px;}
+.row .prefix6       {padding-right:360px;}
+.row .prefix7       {padding-right:420px;}
+.row .prefix8       {padding-right:480px;}
+.row .prefix9       {padding-right:540px;}
+.row .prefix10      {padding-right:600px;}
+.row .prefix11      {padding-right:660px;}
+.row .prefix12      {padding-right:720px;}
+.row .prefix13      {padding-right:780px;}
+.row .prefix14      {padding-right:840px;}
+.row .prefix15      {padding-right:900px;}
+
+/*
+= Push Extra Space
+===================================*/
+.row .push1         {left:60px;} 
+.row .push2         {left:120px;}
+.row .push3         {left:180px;}
+.row .push4         {left:240px;}
+.row .push5         {left:300px;}
+.row .push6         {left:360px;}
+.row .push7         {left:420px;}
+.row .push8         {left:480px;}
+.row .push9         {left:540px;}
+.row .push10        {left:600px;}
+.row .push11        {left:660px;}
+.row .push12        {left:720px;}
+.row .push13        {left:780px;}
+.row .push14        {left:840px;}
+.row .push15        {left:900px;}
+
+/*
+= Pull Extra Space
+===================================*/
+.row .pull1         {left:-60px;} 
+.row .pull2         {left:-120px;}
+.row .pull3         {left:-180px;}
+.row .pull4         {left:-240px;}
+.row .pull5         {left:-300px;}
+.row .pull6         {left:-360px;}
+.row .pull7         {left:-420px;}
+.row .pull8         {left:-480px;}
+.row .pull9         {left:-540px;}
+.row .pull10        {left:-600px;}
+.row .pull11        {left:-660px;}
+.row .pull12        {left:-720px;}
+.row .pull13        {left:-780px;}
+.row .pull14        {left:-840px;}
+.row .pull15        {left:-900px;}
+
+.last               {margin-right:0px;}
+.alpha              {margin-left:0;}
+.omega              {margin-right:0;}
+.bottom             {margin-bottom:0 !important;}
+/*==================================
+=   Big Screens
+===================================*/
+@media only screen and (min-width:1180px){
+    .container      {padding-left:20px;padding-right:20px;}
+    .row            {width:1140px;margin: 0 auto;overflow:hidden;margin-bottom:50px;}
+    .col1,
+    .col2,
+    .col3,
+    .col4,
+    .col5,
+    .col6,
+    .col7,
+    .col8,
+    .col9,
+    .col10,
+    .col11,
+    .col12          {margin-right:20px;margin-left:20px;float: left;min-height: 1px;}
+
+    .row .col1      {width: 55px;}
+    .row .col2      {width: 150px;}
+    .row .col3      {width: 245px;}
+    .row .col4      {width: 340px;}
+    .row .col5      {width: 435px;}
+    .row .col6      {width: 530px;} 
+    .row .col7      {width: 625px;}
+    .row .col8      {width: 720px;}
+    .row .col9      {width: 815px;}
+    .row .col10     {width: 910px;}
+    .row .col11     {width: 1005px;}
+    .row .col12     {width: 1100px;float: left;}
+
+    .row .prefix1   {padding-left:95px;}
+    .row .prefix2   {padding-left:190px;}
+    .row .prefix3   {padding-left:285px;}
+    .row .prefix4   {padding-left:380px;}
+    .row .prefix5   {padding-left:475px;}
+    .row .prefix6   {padding-left:570px;}
+    .row .prefix7   {padding-left:665px;}
+    .row .prefix8   {padding-left:780px;}
+    .row .prefix9   {padding-left:855px;}
+    .row .prefix10  {padding-left:950px;}
+    .row .prefix11  {padding-left:1045px;}
+
+    .row .suffix1   {padding-right:95px;}
+    .row .suffix2   {padding-right:190px;}
+    .row .suffix3   {padding-right:285px;}
+    .row .suffix4   {padding-right:380px;}
+    .row .suffix5   {padding-right:475px;}
+    .row .suffix6   {padding-right:570px;}
+    .row .suffix7   {padding-right:665px;}
+    .row .suffix8   {padding-right:780px;}
+    .row .suffix9   {padding-right:855px;}
+    .row .suffix10  {padding-right:950px;}
+    .row .suffix11  {padding-right:1045px;}
+
+    .row .push1     {left:95px;} 
+    .row .push2     {left:190px;}
+    .row .push3     {left:285px;}
+    .row .push4     {left:380px;}
+    .row .push5     {left:475px;}
+    .row .push6     {left:570px;}
+    .row .push7     {left:665px;}
+    .row .push8     {left:760px;}
+    .row .push9     {left:855px;}
+    .row .push10    {left:950px;}
+    .row .push11    {left:1045px;}
+
+    .row .pull1     {left:-95px;} 
+    .row .pull2     {left:-190px;}
+    .row .pull3     {left:-285px;}
+    .row .pull4     {left:-380px;}
+    .row .pull5     {left:-475px;}
+    .row .pull6     {left:-570px;}
+    .row .pull7     {left:-665px;}
+    .row .pull8     {left:-760px;}
+    .row .pull9     {left:-855px;}
+    .row .pull10    {left:-950px;}
+    .row .pull11    {left:-1045px;}
+
+    .last           {margin-right:0px;}
+    .alpha          {margin-left:0px;}
+    .omega          {margin-right:0px;}
+
+}
+/*==================================
+=   Tablet Portrait
+===================================*/
+@media only screen and (min-width: 767px) and (max-width: 1024px) {
+    .container      {padding-left:20px;padding-right:20px;}
+    .row            {width: 720px;margin: 0 auto;overflow:hidden;margin-bottom:50px}
+    .col1,
+    .col2,
+    .col3,
+    .col4,
+    .col5,
+    .col6,
+    .col7,
+    .col8,
+    .col9,
+    .col10,
+    .col11,
+    .col12          {margin-right:10px;margin-left:10px;float: left;min-height: 1px;}
+
+    .row .col1      {width: 40px;}
+    .row .col2      {width: 100px;}
+    .row .col3      {width: 160px;}
+    .row .col4      {width: 220px;}
+    .row .col5      {width: 280px;}
+    .row .col6      {width: 340px;}
+    .row .col7      {width: 400px;} 
+    .row .col8      {width: 460px;}
+    .row .col9      {width: 520px;}
+    .row .col10     {width: 580px;}
+    .row .col11     {width: 640px;}
+    .row .col12     {width: 700px;float: left;}
+
+    .row .prefix1   {padding-left:60px;}
+    .row .prefix2   {padding-left:120px;}
+    .row .prefix3   {padding-left:180px;}
+    .row .prefix4   {padding-left:240px;}
+    .row .prefix5   {padding-left:300px;}
+    .row .prefix6   {padding-left:360px;}
+    .row .prefix7   {padding-left:420px;}
+    .row .prefix8   {padding-left:480px;}
+    .row .prefix9   {padding-left:540px;}
+    .row .prefix10  {padding-left:600px;}
+    .row .prefix11  {padding-left:660px;}
+
+    .row .suffix1   {padding-right:60px;}
+    .row .suffix2   {padding-right:120px;}
+    .row .suffix3   {padding-right:180px;}
+    .row .suffix4   {padding-right:240px;}
+    .row .suffix5   {padding-right:300px;}
+    .row .suffix6   {padding-right:360px;}
+    .row .suffix7   {padding-right:420px;}
+    .row .suffix8   {padding-right:480px;}
+    .row .suffix9   {padding-right:540px;}
+    .row .suffix10  {padding-right:600px;}
+    .row .suffix11  {padding-right:660px;}
+
+    .row .push1     {left:60px;} 
+    .row .push2     {left:120px;}
+    .row .push3     {left:180px;}
+    .row .push4     {left:240px;}
+    .row .push5     {left:300px;}
+    .row .push6     {left:360px;}
+    .row .push7     {left:420px;}
+    .row .push8     {left:480px;}
+    .row .push9     {left:540px;}
+    .row .push10    {left:600px;}
+    .row .push11    {left:660px;}
+
+    .row .pull1     {left:-60px;} 
+    .row .pull2     {left:-120px;}
+    .row .pull3     {left:-180px;}
+    .row .pull4     {left:-240px;}
+    .row .pull5     {left:-300px;}
+    .row .pull6     {left:-360px;}
+    .row .pull7     {left:-420px;}
+    .row .pull8     {left:-480px;}
+    .row .pull9     {left:-540px;}
+    .row .pull10    {left:-600px;}
+    .row .pull11    {left:-660px;}
+
+    .last           {margin-right: 0px;}
+    .alpha          {margin-left:0px;}
+    .omega          {margin-right:0px;}
+
+}
+/*==================================
+=   Tablet Landscape
+===================================*/
+@media only screen and (max-device-width: 1024px) and (orientation:landscape) {
+.container          {padding-left:20px;padding-right:20px;}
+.row                {width:960px;margin: 0 auto;overflow:hidden;margin-bottom:50px}
+.col1,
+.col2,
+.col3,
+.col4,
+.col5,
+.col6,
+.col7,
+.col8,
+.col9,
+.col10,
+.col11,
+.col12              {margin-right:10px;margin-left:10px;float:left;min-height:1px;}
+
+.row .col1          {width: 60px;}
+.row .col2          {width: 140px;}
+.row .col3          {width: 220px;}
+.row .col4          {width: 300px;}
+.row .col5          {width: 380px;}
+.row .col6          {width: 460px;} 
+.row .col7          {width: 540px;}
+.row .col8          {width: 620px;}
+.row .col9          {width: 700px;}
+.row .col10         {width: 780px;}
+.row .col11         {width: 860px;}
+.row .col12         {width: 940px;float:left;}
+
+.row .prefix1       {padding-left:80px;}
+.row .prefix2       {padding-left:160px;}
+.row .prefix3       {padding-left:240px;}
+.row .prefix4       {padding-left:320px;}
+.row .prefix5       {padding-left:400px;}
+.row .prefix6       {padding-left:480px;}
+.row .prefix7       {padding-left:560px;}
+.row .prefix8       {padding-left:640px;}
+.row .prefix9       {padding-left:720px;}
+.row .prefix10      {padding-left:800px;}
+.row .prefix11      {padding-left:880px;}
+
+.row .suffix1       {padding-right:80px;}
+.row .suffix2       {padding-right:160px;}
+.row .suffix3       {padding-right:240px;}
+.row .suffix4       {padding-right:320px;}
+.row .suffix5       {padding-right:400px;}
+.row .suffix6       {padding-right:480px;}
+.row .suffix7       {padding-right:560px;}
+.row .suffix8       {padding-right:640px;}
+.row .suffix9       {padding-right:720px;}
+.row .suffix10      {padding-right:800px;}
+.row .suffix11      {padding-right:880px;}
+
+.row .push1         {left:80px;} 
+.row .push2         {left:160px;}
+.row .push3         {left:240px;}
+.row .push4         {left:320px;}
+.row .push5         {left:400px;}
+.row .push6         {left:480px;}
+.row .push7         {left:560px;}
+.row .push8         {left:640px;}
+.row .push9         {left:720px;}
+.row .push10        {left:800px;}
+.row .push11        {left:880px;}
+
+.row .pull1         {left:-80px;} 
+.row .pull2         {left:-160px;}
+.row .pull3         {left:-240px;}
+.row .pull4         {left:-320px;}
+.row .pull5         {left:-400px;}
+.row .pull6         {left:-480px;}
+.row .pull7         {left:-560px;}
+.row .pull8         {left:-640px;}
+.row .pull9         {left:-720px;}
+.row .pull10        {left:-800px;}
+.row .pull11        {left:-880px;}
+
+.last               {margin-right:0px;}
+.alpha              {margin-left:0;}
+.omega              {margin-right:0;}
+.bottom             {margin-bottom:0 !important;}
+}
+/*==================================
+=   Phone Portrait
+===================================*/
+@media only screen and (max-width: 480px) {
+    .row, body, .container {
+      min-width: 0;
+      margin-left: auto;
+      margin-right: auto;
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+    .alpha          {margin-left:0px;}
+    .omega          {margin-right:0px;}
+    .row            {width:320px;}
+
+    .row .col1,
+    .row .col2,
+    .row .col3,
+    .row .col4,
+    .row .col5,
+    .row .col6,
+    .row .col7,
+    .row .col8,
+    .row .col9,
+    .row .col10,
+    .row .col11, 
+    .row .col12 {
+      width: auto;
+      float: none;
+      margin-left: 0px;
+      margin-right: 0px;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
+    .row .prefix1,   
+    .row .prefix2,   
+    .row .prefix3,   
+    .row .prefix4,   
+    .row .prefix5,   
+    .row .prefix6,   
+    .row .prefix7,   
+    .row .prefix8,   
+    .row .prefix9,   
+    .row .prefix10,  
+    .row .prefix12,  
+    .row .suffix1,  
+    .row .suffix2,  
+    .row .suffix3,   
+    .row .suffix4,   
+    .row .suffix5,   
+    .row .suffix6,   
+    .row .suffix7,   
+    .row .suffix8,   
+    .row .suffix9,   
+    .row .suffix10,  
+    .row .suffix11  {padding-right:20px;padding-left:20px}
+
+    .row .push2,       
+    .row .push3,     
+    .row .push4,      
+    .row .push5,      
+    .row .push6,      
+    .row .push7,     
+    .row .push8,     
+    .row .push9,     
+    .row .push10,       
+    .row .push11,    
+    .row .pull1,       
+    .row .pull2,       
+    .row .pull3,     
+    .row .pull4,      
+    .row .pull5,      
+    .row .pull6,       
+    .row .pull7,     
+    .row .pull8,     
+    .row .pull9,      
+    .row .pull10,       
+    .row .pull11    {left:0px;}
+}
+/*==================================
+=   Phone Landscape
+===================================*/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .row, body, .container {
+      min-width: 0;
+      margin-left: auto;
+      margin-right: auto;
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+    .alpha          {margin-left:0px;}
+    .omega          {margin-right:0px;}
+    .row            {width:456px;}
+
+    .row .col1, 
+    .row .col2, 
+    .row .col3, 
+    .row .col4, 
+    .row .col5, 
+    .row .col6, 
+    .row .col7,
+    .row .col8,
+    .row .col9,
+    .row .col10,
+    .row .col11,
+    .row .col12 {
+      width: auto;
+      float: none;
+      margin-left: 0px;
+      margin-right: 0px;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
+    .row .prefix1,   
+    .row .prefix2,   
+    .row .prefix3,   
+    .row .prefix4,   
+    .row .prefix5,   
+    .row .prefix6,   
+    .row .prefix7,   
+    .row .prefix8,   
+    .row .prefix9,   
+    .row .prefix10,  
+    .row .prefix11,  
+    .row .suffix1,  
+    .row .suffix2,  
+    .row .suffix3,   
+    .row .suffix4,   
+    .row .suffix5,   
+    .row .suffix6,   
+    .row .suffix7,   
+    .row .suffix8,   
+    .row .suffix9,   
+    .row .suffix10,  
+    .row .suffix11  {padding-right:20px;padding-left:20px}
+
+    .row .push2,       
+    .row .push3,     
+    .row .push4,      
+    .row .push5,      
+    .row .push6,      
+    .row .push7,     
+    .row .push8,     
+    .row .push9,     
+    .row .push10,       
+    .row .push11,    
+    .row .pull1,       
+    .row .pull2,       
+    .row .pull3,     
+    .row .pull4,      
+    .row .pull5,      
+    .row .pull6,       
+    .row .pull7,     
+    .row .pull8,     
+    .row .pull9,      
+    .row .pull10,       
+    .row .pull11    {left:0px;}
+}
+/*===============================
+=
+=   Your styles here!
+=
+================================*/
+
+
+
+
+/*==============================
+=   Override these styles
+=   to customize each viewport
+================================
+=   1140px #Big Screens
+================================*/
+@media only screen and (min-width:1180px){
+
+}
+
+
+/*==================================
+=   Tablet Portrait
+===================================*/
+@media only screen and (min-width: 767px) and (max-width: 1024px) {
+
+}
+
+/*==================================
+=   Tablet Landscape
+===================================*/
+@media only screen and (max-device-width: 1024px) and (orientation:landscape) {
+
+}
+
+/*==================================
+=   Phone Portrait
+===================================*/
+@media only screen and (max-width: 480px) {
+
+}
+
+
+/*==================================
+=   Phone Landscape
+===================================*/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+}
+
+/*===============================
+=   clear fix jargan 
+=   print styles
+=================================*/
+.clearfix:before, .clearfix:after{content:"\0020"; display:block; height:0; overflow:hidden}
+.clearfix:after{clear:both}
+.clearfix{zoom:1}
+@media print{
+ *{background:transparent !important; color:black !important; text-shadow:none !important; filter:none !important; 
+ -ms-filter:none !important}
+ a, a:visited{color:#444 !important; text-decoration:underline}
+ a[href]:after{content:"("attr(href) ")"}
+ abbr[title]:after{content:"("attr(title) ")"}
+ .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after{content:""} 
+ pre, blockquote{border:1px solid #999; page-break-inside:avoid}
+ thead{display:table-header-group}
+ tr, img{page-break-inside:avoid}
+ @page{margin:0.5cm}
+ p, h2, h3{orphans:3; widows:3}
+ h2, h3{page-break-after:avoid}}
