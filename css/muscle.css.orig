@@ -367,6 +367,14 @@ iframe, img {max-width: 100%;}
 .col11,
 .col12              {margin-right:10px;margin-left:10px;float:left;min-height:1px;}
 
+<<<<<<< HEAD
+/*===============================
+=   480px ONLY Mobile Landscape
+================================*/
+/* @media only screen and (min-width: 480px) and (max-width: 808px) { */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min-device-pixel-ratio: 1.5) {
+    
+=======
 .row .col1          {width: 60px;}
 .row .col2          {width: 140px;}
 .row .col3          {width: 220px;}
@@ -437,6 +445,7 @@ iframe, img {max-width: 100%;}
 =   Phone Portrait
 ===================================*/
 @media only screen and (max-width: 480px) {
+>>>>>>> f0472840a31327c85a8fe6341006d129a8997dbe
     .row, body, .container {
       min-width: 0;
       margin-left: auto;
@@ -513,10 +522,19 @@ iframe, img {max-width: 100%;}
     .row .pull10,       
     .row .pull11    {left:0px;}
 }
+<<<<<<< HEAD
+
+/*===============================
+=   320px ONLY Mobile Portrait
+================================*/
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    
+=======
 /*==================================
 =   Phone Landscape
 ===================================*/
 @media only screen and (min-width: 480px) and (max-width: 767px) {
+>>>>>>> f0472840a31327c85a8fe6341006d129a8997dbe
     .row, body, .container {
       min-width: 0;
       margin-left: auto;
@@ -620,6 +638,20 @@ iframe, img {max-width: 100%;}
 
 }
 
+<<<<<<< HEAD
+/*===============================
+=   480px #Mobile Landscape ONLY
+================================*/
+@media only screen and (min-width: 460px) and (max-width: 808px) {
+}
+
+/*===============================
+=   320px #Mobile Portrait ONLY
+================================*/
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+}
+
+=======
 /*==================================
 =   Tablet Landscape
 ===================================*/
@@ -642,6 +674,7 @@ iframe, img {max-width: 100%;}
 
 }
 
+>>>>>>> f0472840a31327c85a8fe6341006d129a8997dbe
 /*===============================
 =   clear fix jargan 
 =   print styles

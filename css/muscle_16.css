@@ -83,7 +83,10 @@ iframe, img {max-width: 100%;}
 .col9,
 .col10,
 .col11,
-.col12              {margin-right:10px;margin-left:10px;float:left;min-height:1px;}
+.col12,
+.col13,
+.col14,
+.col15              {margin-right:10px;margin-left:10px;float:left;min-height:1px;}
 
 .push1, .pull1,      
 .push2, .pull2,       
@@ -96,83 +99,107 @@ iframe, img {max-width: 100%;}
 .push9, .pull9,      
 .push10,.pull10,       
 .push11,.pull11,
-.push12,.pull12     {position:relative}
+.push12,.pull12,
+.push13,.pull13,
+.push14,.pull14,
+.push15,.pull15,
+.push16,.pull16     {position:relative}
 
 /*
 = Width of columns
 ===================================*/
-.row .col1          {width: 60px;}
-.row .col2          {width: 140px;}
-.row .col3          {width: 220px;}
-.row .col4          {width: 300px;}
-.row .col5          {width: 380px;}
-.row .col6          {width: 460px;} 
-.row .col7          {width: 540px;}
-.row .col8          {width: 620px;}
-.row .col9          {width: 700px;}
-.row .col10         {width: 780px;}
-.row .col11         {width: 860px;}
-.row .col12         {width: 940px;float:left;}
+.row .col1          {width: 40px;}
+.row .col2          {width: 100px;}
+.row .col3          {width: 160px;}
+.row .col4          {width: 220px;}
+.row .col5          {width: 280px;}
+.row .col6          {width: 340px;} 
+.row .col7          {width: 400px;}
+.row .col8          {width: 460px;}
+.row .col9          {width: 520px;}
+.row .col10         {width: 580px;}
+.row .col11         {width: 640px;}
+.row .col12         {width: 700px;}
+.row .col13         {width: 760px;}
+.row .col14         {width: 820px;}
+.row .col15         {width: 880px;}
+.row .col16         {width: 940px;float:left;}
 
 /*
 = Prefix Extra Space
 ===================================*/
-.row .prefix1       {padding-left:80px;}
-.row .prefix2       {padding-left:160px;}
-.row .prefix3       {padding-left:240px;}
-.row .prefix4       {padding-left:320px;}
-.row .prefix5       {padding-left:400px;}
-.row .prefix6       {padding-left:480px;}
-.row .prefix7       {padding-left:560px;}
-.row .prefix8       {padding-left:640px;}
-.row .prefix9       {padding-left:720px;}
-.row .prefix10      {padding-left:800px;}
-.row .prefix11      {padding-left:880px;}
+.row .prefix1       {padding-left:60px;}
+.row .prefix2       {padding-left:120px;}
+.row .prefix3       {padding-left:180px;}
+.row .prefix4       {padding-left:240px;}
+.row .prefix5       {padding-left:300px;}
+.row .prefix6       {padding-left:360px;}
+.row .prefix7       {padding-left:420px;}
+.row .prefix8       {padding-left:480px;}
+.row .prefix9       {padding-left:540px;}
+.row .prefix10      {padding-left:600px;}
+.row .prefix11      {padding-left:660px;}
+.row .prefix12      {padding-left:720px;}
+.row .prefix13      {padding-left:780px;}
+.row .prefix14      {padding-left:840px;}
+.row .prefix15      {padding-left:900px;}
 
 /*
 = Suffix Extra Space
 ===================================*/
-.row .suffix1       {padding-right:80px;}
-.row .suffix2       {padding-right:160px;}
-.row .suffix3       {padding-right:240px;}
-.row .suffix4       {padding-right:320px;}
-.row .suffix5       {padding-right:400px;}
-.row .suffix6       {padding-right:480px;}
-.row .suffix7       {padding-right:560px;}
-.row .suffix8       {padding-right:640px;}
-.row .suffix9       {padding-right:720px;}
-.row .suffix10      {padding-right:800px;}
-.row .suffix11      {padding-right:880px;}
+.row .suffix       {padding-right:60px;}
+.row .suffix2       {padding-right:120px;}
+.row .suffix3       {padding-right:180px;}
+.row .suffix4       {padding-right:240px;}
+.row .suffix5       {padding-right:300px;}
+.row .suffix6       {padding-right:360px;}
+.row .suffix7       {padding-right:420px;}
+.row .suffix8       {padding-right:480px;}
+.row .suffix9       {padding-right:540px;}
+.row .suffix10      {padding-right:600px;}
+.row .suffix11      {padding-right:660px;}
+.row .suffix12      {padding-right:720px;}
+.row .suffix13      {padding-right:780px;}
+.row .suffix14      {padding-right:840px;}
+.row .suffix15      {padding-right:900px;}
 
 /*
 = Push Extra Space
 ===================================*/
-.row .push1         {left:80px;} 
-.row .push2         {left:160px;}
-.row .push3         {left:240px;}
-.row .push4         {left:320px;}
-.row .push5         {left:400px;}
-.row .push6         {left:480px;}
-.row .push7         {left:560px;}
-.row .push8         {left:640px;}
-.row .push9         {left:720px;}
-.row .push10        {left:800px;}
-.row .push11        {left:880px;}
+.row .push1         {left:60px;} 
+.row .push2         {left:120px;}
+.row .push3         {left:180px;}
+.row .push4         {left:240px;}
+.row .push5         {left:300px;}
+.row .push6         {left:360px;}
+.row .push7         {left:420px;}
+.row .push8         {left:480px;}
+.row .push9         {left:540px;}
+.row .push10        {left:600px;}
+.row .push11        {left:660px;}
+.row .push12        {left:720px;}
+.row .push13        {left:780px;}
+.row .push14        {left:840px;}
+.row .push15        {left:900px;}
 
 /*
 = Pull Extra Space
 ===================================*/
-.row .pull1         {left:-80px;} 
-.row .pull2         {left:-160px;}
-.row .pull3         {left:-240px;}
-.row .pull4         {left:-320px;}
-.row .pull5         {left:-400px;}
-.row .pull6         {left:-480px;}
-.row .pull7         {left:-560px;}
-.row .pull8         {left:-640px;}
-.row .pull9         {left:-720px;}
-.row .pull10        {left:-800px;}
-.row .pull11        {left:-880px;}
+.row .pull1         {left:-60px;} 
+.row .pull2         {left:-120px;}
+.row .pull3         {left:-180px;}
+.row .pull4         {left:-240px;}
+.row .pull5         {left:-300px;}
+.row .pull6         {left:-360px;}
+.row .pull7         {left:-420px;}
+.row .pull8         {left:-480px;}
+.row .pull9         {left:-540px;}
+.row .pull10        {left:-600px;}
+.row .pull11        {left:-660px;}
+.row .pull12        {left:-720px;}
+.row .pull13        {left:-780px;}
+.row .pull14        {left:-840px;}
+.row .pull15        {left:-900px;}
 
 .last               {margin-right:0px;}
 .alpha              {margin-left:0;}
