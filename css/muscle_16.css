@@ -61,7 +61,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 =   960 Default
 ===================================*/
 .container          {padding-left:20px;padding-right:20px;}
-.row                {width:960px;margin: 0 auto;overflow:hidden;margin-bottom:50px}
+.row                {width:960px;margin: 0 auto;overflow:hidden;}
 .col1,
 .col2,
 .col3,
@@ -200,7 +200,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 ===================================*/
 @media only screen and (min-width:1180px){
     .container      {padding-left:20px;padding-right:20px;}
-    .row            {width:1140px;margin: 0 auto;overflow:hidden;margin-bottom:50px;}
+    .row            {width:1140px;margin: 0 auto;overflow:hidden;}
     .col1,
     .col2,
     .col3,
@@ -309,7 +309,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 ===================================*/
 @media only screen and (min-width: 767px) and (max-width: 1024px) {
     .container      {padding-left:10px;padding-right:10px;}
-    .row            {width: 740px;margin: 0 auto;overflow:hidden;margin-bottom:50px}
+    .row            {width: 740px;margin: 0 auto;overflow:hidden;}
     .col1,
     .col2,
     .col3,
@@ -418,7 +418,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 ===================================*/
 @media only screen and (max-device-width: 1024px) and (orientation:landscape) {
 .container          {padding-left:20px;padding-right:20px;}
-.row                {width:960px;margin: 0 auto;overflow:hidden;margin-bottom:50px}
+.row                {width:960px;margin: 0 auto;overflow:hidden;}
 .col1,
 .col2,
 .col3,
