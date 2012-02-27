@@ -167,7 +167,6 @@ table { border-collapse: collapse; border-spacing: 0; }
 .last               {margin-right:0px;}
 .alpha              {margin-left:0;}
 .omega              {margin-right:0;}
-.bottom             {margin-bottom:0 !important;}
 /*==================================
 =   Big Screens
 ===================================*/
@@ -421,7 +420,6 @@ table { border-collapse: collapse; border-spacing: 0; }
 .last               {margin-right:0px;}
 .alpha              {margin-left:0;}
 .omega              {margin-right:0;}
-.bottom             {margin-bottom:0 !important;}
 }
 /*==================================
 =   Phone Portrait

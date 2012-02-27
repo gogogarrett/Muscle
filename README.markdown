@@ -58,7 +58,7 @@ Sample markup
                 <p>As where this div is second</p>
             </div>
         </div>
-        <footer class="row bottom">
+        <footer class="row">
             <p>That's all folks.  If you have any more questions feel free to contact us at @GoGoGarrett or @VertJustin</p>
        </footer>
     </div>
@@ -69,7 +69,7 @@ Sample markup
 Is a class that allows the div to expand to the full width of the browser, and has padding on both side to separate the content from the window as it is resized.  This class is ideal for background images or colors that expand beyond the wrapper and span the full width of the browser.  You can use multiple of these on your page to divide the content of your page up into different sections.
 
 **.row**
-Is a what you encapsulate your columns within.  It centers them and defines the width as well as add a margin bottom to separate the contents of your rows.  
+Is a what you encapsulate your columns within.  It centers them and defines a set width.
 
 **.col1, .col2, .col3, .col4, .col5, .col6, .col7, .col7, .col9, .col10, .col11, .col12**
 Are the classes for each column.  They are to be used to layout the page in any combination you desire within a row that adds up to be twelve. 
@@ -87,6 +87,3 @@ Are two helper classes that assist you with nesting children divs within parent 
 
 **.last**
 The last column within a row needs the class to ensure there is no right margin and that all columns fit within the row 
-
-**.bottom**
-This class functions similarly to .last as it is required for the very last row if you want to ensure that it sits flush to the bottom of the page.  It eliminates all margin bottom.
